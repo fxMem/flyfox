@@ -1,0 +1,71 @@
+{
+  "compileOnSave": true,
+  "compilerOptions": {
+    "module": "none"  ,
+    "target": "es3",
+    //"experimentalDecorators": true,
+    "sourceMap": true,
+    "removeComments": true,
+    "outFile": "wwwroot/js/plugins/flyfox.js"
+  },
+  "files": [
+    "ts/FileManager.ts",
+    "ts/Log.ts",
+    "ts/Export.ts",
+    "ts/Core.ts",
+    "ts/Error.ts",
+    "ts/Factory.ts",
+    "ts/InvokeHelper.ts",
+
+    "ts/Action.ts",
+    "ts/ActionContext.ts",
+    "ts/BotCompositeAction.ts",
+    "ts/BotManager.ts",
+    "ts/Bots.ts",
+    "ts/BotState.ts",
+    "ts/BotStateBuilder.ts",
+    "ts/CacheManager.ts",
+    "ts/Checkpoint.ts",
+    "ts/StaticBot.ts",
+    "ts/BotCollection.ts",
+    "ts/Map.ts",
+    "ts/Types.ts",
+    "ts/CrossMapMoveAction.ts",
+    "ts/DateTime.ts",
+    "ts/Event.ts",
+
+    "ts/MapManager.ts",
+    "ts/MoveAction.ts",
+    "ts/MoveToTargetAction.ts",
+    "ts/NoteParameters.ts",
+    "ts/Player.ts",
+    "ts/Town.ts",
+    "ts/World.ts",
+
+    "ts/WaitAction.ts",
+    "ts/StreetMap.ts",
+    "ts/ExitCheckpoint.ts",
+    "ts/Pub.ts",
+    "ts/Civilian.ts",
+    "ts/Quest.ts",
+    "ts/QuestStage.ts",
+    "ts/Dialogue.ts",
+    "ts/DialogueBlock.ts",
+    "ts/RPGMakerCommand.ts",
+    "ts/MultiText.ts",
+    "ts/QuestDataBag.ts",
+    "ts/QuestProgress.ts",
+    "ts/QuestProcessor.ts",
+    "ts/QuestManager.ts",
+    "ts/QuestPlayer.ts",
+
+    "ts/Line.ts",
+    "ts/Welcoming.ts",
+    "ts/Condition.ts",
+    "ts/SaveManager.ts",
+    "ts/Loader.ts"
+  ],
+  "exclude": [
+    "node_modules"
+  ]
+}
